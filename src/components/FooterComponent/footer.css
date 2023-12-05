@@ -1,0 +1,144 @@
+.footer-title {
+    overflow: hidden;
+    text-align: center;
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    
+   }
+   .footer-title:before,
+   .footer-title:after {
+    background-color: #55200C;
+    content: "";
+    display: inline-block;
+    height: 1.5px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+   }
+   .footer-title:before {
+    right: 0.1em;
+    margin-left: -50%;
+   }
+   .footer-title:after {
+    left: 0.1em;
+    margin-right: -50%;
+   }
+.footer-container{
+
+    width: 100%;
+    border: 1.5px solid #55200C;
+   
+}
+.footer-title{
+   margin: 4rem 0 2rem 0;
+}
+.footer-image{
+    border-bottom: 1.5px solid #55200C;
+
+    
+}
+.footer-image img{
+    width: 100%;
+    margin: auto;
+  display: flex;
+
+}
+.footer-content{
+    padding: 0 0.8rem 0Rem 0.8rem;
+}
+.footer-container p{
+    text-align: center;
+    font-size: 0.7em;
+    margin: 0.3rem ;
+}
+.footer-content h5{
+    text-align: end;
+    font-family: "amador", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin: 0.5rem 0 0 0;
+}
+
+.footer-content ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color:#55200C;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.footer-content ul li{
+    list-style:none;
+}
+.footer-content p{
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1em;
+    font-weight: 500;
+    font-style: italic;
+    text-align: end;
+}
+.footer-copy{
+    display: flex;  
+    border-top: 1.5px solid #55200C;
+    margin: 1rem 0 0.5rem 0 ;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+
+}
+p.copyright{
+    text-align: center;
+    margin: 0.5rem 0 ;
+
+}
+
+@media (min-width: 750px) {
+    .footer-container p{
+        font-size: 1em;
+    }
+
+    .footer-content h5{
+        font-size: 4em;
+        margin: 0.5rem 0 0 1rem;
+    }
+    .footer-image{
+        border-bottom: 1.5px solid #55200C;
+      
+        
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .emailBox{
+        width: 50%;
+        margin-left: auto;
+    }
+    .footer-title{
+        font-size: 5em;
+        margin: 5rem 0 3rem;
+    }
+    .footer-image{
+        border-bottom: 1.5px solid #55200C;
+       
+        
+    }
+    .footer-content{
+        padding:  0 2rem;
+    }
+}
+
+@media (min-width: 1512px) {
+.footer-container{
+    max-width: 90%;
+    margin: auto;
+}
+}

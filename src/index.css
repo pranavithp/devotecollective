@@ -1,0 +1,160 @@
+
+
+body {
+  margin: 0;
+
+  font-family: "miller-headline", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #55200C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F8F3EA;
+}
+ p{
+  font-family: "miller-banner", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h3, h4{
+  font-family: "miller-banner", serif;
+font-weight:400;
+font-style: normal;
+}
+
+h1{
+  margin-right: auto;
+}
+h1, h2{
+  font-family: "amador", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.desktop-menu{
+  display: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem 1rem 0;
+  padding: 4.5rem 1.5rem 0 1.5rem;
+  border-bottom: #55200C 1.5px solid;
+}
+#currentDate{
+  height: fit-content;
+
+  position: absolute;
+
+  top: 1rem;
+  right: 1rem;
+}
+
+#currentTime{
+  height: fit-content;
+
+  position: absolute;
+
+  top: 2.5rem;
+  right: 1rem;
+}
+.ModalContainer{
+  background-image: url("./assets/img/\ modal.png");
+}
+.CollectionList{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 70%;
+}
+
+.CollectionList  li a{
+  text-decoration: none;
+  color: #55200C ;
+
+
+}
+.CollectionList   li {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #55200C ;
+  font-style: italic;
+  border-bottom: solid 1px #55200C;
+  width: 100%;
+}
+
+.CollectionList  li :hover{
+  color: #EBB8D5;
+  text-shadow:0px 0px 30px #f4e5ed;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.closeButton:hover{
+  color: #EBB8D5;
+  text-shadow:0px 0px 30px 30px #f4e5ed;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+
+
+@media (min-width: 751px) {
+  .desktop-menu{
+    display: flex;
+    align-content: end;
+    justify-content: end;
+    width: fit-content;
+  }
+.desktop-menu ul{
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  padding: 0;
+  gap: 1rem;
+  height: fit-content;
+
+  align-self: end;
+}
+.desktop-menu ul li a{
+  text-decoration: none;
+  color: #55200C;
+  font-weight: 500;
+  text-transform: capitalize;
+
+}
+.desktop-menu ul li{
+  border: solid 1px #55200C;
+  border-radius: 20px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  transition: all 0.2s ease-in
+}
+.desktop-menu ul li:hover{
+background-color: #EDFFCE;
+
+
+}
+
+
+.mobile_menu{
+  display: none;
+}
+.svgcontainer{
+  height: 70vh;
+}
+}
+

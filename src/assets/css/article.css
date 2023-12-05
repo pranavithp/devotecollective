@@ -1,0 +1,64 @@
+.article-title{
+
+  font-family: "miller-headline", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #55200C;
+  font-size: 3em;
+  margin: 1rem ;
+  text-align: center;
+
+}
+
+.banner-image img{
+   width: 100%;
+}
+.info{
+    margin: 1rem 0;
+    display: flex;
+ 
+}
+.info p{
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+.article-content{
+    margin: 0 1.5rem
+}
+.excerpt{
+    margin: 2rem 1rem;
+}
+header{
+    margin: 0;
+}
+
+@media screen and (min-width: 1080px) {
+    .banner-image {
+        aspect-ratio: 16/7;
+        overflow: hidden;
+        width: 99%;
+        margin: auto;
+      }
+      
+      .banner-image img {
+        width: 100%; /* or height: 100%; depending on your layout */
+        object-fit: cover; /* or contain, based on your preference */
+      }
+      .content-wrap{
+        margin: auto;
+        width: 90%;
+        padding: 1rem 0;
+      }
+      .article-title{
+        padding: 1rem 0;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        font-size: 4em;
+      }
+   
+      .info{
+        margin: 0rem 0 2rem 0;
+      }
+}
