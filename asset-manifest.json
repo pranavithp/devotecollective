@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/devotecollective/static/css/main.b74903d9.css",
+    "main.js": "/devotecollective/static/js/main.d619bfad.js",
+    "static/js/787.13fef030.chunk.js": "/devotecollective/static/js/787.13fef030.chunk.js",
+    "static/media/pattern.jpg": "/devotecollective/static/media/pattern.b68fa8af5266d8f2796c.jpg",
+    "static/media/Comp 1.gif": "/devotecollective/static/media/Comp 1.1b95565f6cdd8bbe154c.gif",
+    "static/media/footer-img.jpg": "/devotecollective/static/media/footer-img.7de7bf02f57bb157f10f.jpg",
+    "static/media/computer.jpg": "/devotecollective/static/media/computer.5117c81c357b486fa4aa.jpg",
+    "static/media/computer.png": "/devotecollective/static/media/computer.82e63701356775434e2a.png",
+    "static/media/ modal.png": "/devotecollective/static/media/ modal.7be40995dbcdcdc765de.png",
+    "index.html": "/devotecollective/index.html",
+    "main.b74903d9.css.map": "/devotecollective/static/css/main.b74903d9.css.map",
+    "main.d619bfad.js.map": "/devotecollective/static/js/main.d619bfad.js.map",
+    "787.13fef030.chunk.js.map": "/devotecollective/static/js/787.13fef030.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74903d9.css",
+    "static/js/main.d619bfad.js"
+  ]
+}
